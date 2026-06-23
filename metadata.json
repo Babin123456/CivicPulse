@@ -1,0 +1,10 @@
+{
+  "name": "Civic Pulse",
+  "description": "A hyperlocal civic issue reporting platform",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

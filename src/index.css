@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-page: #f7f8f6;
+    --bg-card: #ffffff;
+    --bg-dark-accent: #181e15;
+    --text-primary: #181e15;
+    --text-secondary: #6b7268;
+    --border-subtle: #e5e7e2;
+    --accent-mint: #0e9f7d; /* Darkened for better text contrast */
+    --accent-lavender: #9a4cf5; /* Darkened */
+    --accent-success: #0e9f7d;
+    --accent-warning: #d97706; /* Darkened from f5a623 */
+    --accent-danger: #dc2626; /* Darkened from ef4444 */
+  }
+  body {
+    background-color: var(--bg-page);
+    color: var(--text-primary);
+  }
+}
+
+.custom-leaflet-icon {
+  background: transparent;
+  border: none;
+}
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-page: var(--bg-page);
+  --color-card: var(--bg-card);
+  --color-dark: var(--bg-dark-accent);
+  --color-text-main: var(--text-primary);
+  --color-text-muted: var(--text-secondary);
+  --color-border-subtle: var(--border-subtle);
+  --color-mint: var(--accent-mint);
+  --color-lavender: var(--accent-lavender);
+  --color-success: var(--accent-success);
+  --color-warning: var(--accent-warning);
+  --color-danger: var(--accent-danger);
+  
+  --color-primary: var(--bg-dark-accent);
+}
